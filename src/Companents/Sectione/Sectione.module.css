@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+min-height: 100vh;
+
+}
+
+.photo {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.texe {
+    position: absolute;
+    left: 1px;
+    bottom: 10px;
+    
+}

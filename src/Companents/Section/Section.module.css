@@ -1,0 +1,42 @@
+.sectionone {
+    background-image: url("../Images/hero_1.jpg");
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+}
+
+.sction {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    /* align-items: center; */
+}
+
+h2 {
+    font-size: 45px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.btn {
+    background-color: #5A50E5;
+    border-radius: 10px;
+    width: 130px;
+    padding: 11px;
+}
